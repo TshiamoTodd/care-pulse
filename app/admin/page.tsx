@@ -9,7 +9,6 @@ import { columns, } from '@/components/table/Columns'
 
 const Admin = async () => {
     const appointsments = await getRecentAppointmentList()
-    console.log(appointsments)
 
     return (
         <div className='mx-auto flex max-w-7xl flex-col space-y-14'>
